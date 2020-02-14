@@ -32,18 +32,33 @@ class EnvioDeMensagens extends React.Component {
         })
     }
 
-    criarMsg = (event) => {
+    criarMsg = () => {
         this.props.onCriaMensagem({
             usuario: this.state.usuario + ":",
             msgusuario: this.state.msgusuario
         })
+        this.setState({
+            msgusuario: ""
+        })
+    }
+
+    aoApertarEnter = (event) => {
+        if(event.keyCode === 13){
+            this.props.onCriaMensagem({
+                usuario: this.state.usuario + ":",
+                msgusuario: this.state.msgusuario
+            })
+            this.setState({
+                msgusuario: ""
+            })
+        }
     }
 
     render() {
         return (
             <EnvioDeMensagensContainer>
                 <StyledInput comprimento="7vw" type="text" placeholder="Usuario" value={this.props.usuario} onChange={this.onChangeUsuario}></StyledInput>
-                <StyledInput comprimento="48vw" type="text" placeholder="Mensagem" value={this.props.msgusuario} onChange={this.onChangeMSGUsuario}></StyledInput>
+                <StyledInput comprimento="48vw" type="text" placeholder="Mensagem" value={this.state.msgusuario} onChange={this.onChangeMSGUsuario} onKeyDown={this.aoApertarEnter}></StyledInput>
                 <button onClick={this.criarMsg}>Enviar</button>
             </EnvioDeMensagensContainer>
         )
