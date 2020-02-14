@@ -8,10 +8,12 @@ const ListaDeMensagensContainer = styled.div`
     padding: 20px;
 `
 
-const DivMensagem = styled.div``
+const DivMensagem = styled.div`
+`
 
 const SpanCustomizado = styled.span`
     font-weight: ${ props => props.pesofonte};
+    display: block;
 `
 
 class ListaDeMensagens extends React.Component {
@@ -25,9 +27,8 @@ class ListaDeMensagens extends React.Component {
         return (
             <ListaDeMensagensContainer>
                 <DivMensagem>
-                    <SpanCustomizado pesofonte="bold"> {this.props.usuario} </SpanCustomizado>
-                    <SpanCustomizado> {this.props.msgusuario} </SpanCustomizado>
-
+                    <SpanCustomizado id="spanid" pesofonte="bold"> {this.props.usuario} </SpanCustomizado>
+                    <SpanCustomizado id="spanid"> {this.props.msgusuario} </SpanCustomizado>
                 </DivMensagem>
             </ListaDeMensagensContainer>
         )
