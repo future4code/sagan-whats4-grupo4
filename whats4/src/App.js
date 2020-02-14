@@ -34,15 +34,24 @@ class App extends React.Component {
 
   }
 
+  apagaMensagem = (event) => {
+    if(event.target.id=='spanid') return; 
+    if(window.confirm("Tem certeza que deseja deletar essa mensagem?")){
+      event.target.parentNode.parentNode.removeChild(event.target.parentNode); //apenas aceite
+    }
+  }
+
   render() {
 
     let listaCadaMensagem = this.state.listaDeMensagens.map((cadamensagem, index) => {
       return (
-        <ListaDeMensagens
-          key={index}
-          usuario={cadamensagem.usuario}
-          msgusuario={cadamensagem.msgusuario}
-        />
+        <div onDoubleClick={ this.apagaMensagem }>
+          <ListaDeMensagens
+            key={index}
+            usuario={cadamensagem.usuario}
+            msgusuario={cadamensagem.msgusuario}
+          />
+        </div>
       )
     })
 

@@ -25,9 +25,8 @@ class ListaDeMensagens extends React.Component {
         return (
             <ListaDeMensagensContainer>
                 <DivMensagem>
-                    <SpanCustomizado pesofonte="bold"> {this.props.usuario} </SpanCustomizado>
-                    <SpanCustomizado> {this.props.msgusuario} </SpanCustomizado>
-
+                    <SpanCustomizado id="spanid" pesofonte="bold"> {this.props.usuario} </SpanCustomizado>
+                    <SpanCustomizado id="spanid"> {this.props.msgusuario} </SpanCustomizado>
                 </DivMensagem>
             </ListaDeMensagensContainer>
         )
