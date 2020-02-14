@@ -8,10 +8,12 @@ const ListaDeMensagensContainer = styled.div`
     padding: 20px;
 `
 
-const DivMensagem = styled.div``
+const DivMensagem = styled.div`
+`
 
 const SpanCustomizado = styled.span`
     font-weight: ${ props => props.pesofonte};
+    display: block;
 `
 
 class ListaDeMensagens extends React.Component {
