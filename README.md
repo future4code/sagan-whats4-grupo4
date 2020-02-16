@@ -31,11 +31,12 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 * [Leonardo Crispim](https://github.com/SevenBlueBunnies)
 <br>
 
-**Escopo do projeto**: criar um MVP de um aplicativo de troca de mensagens, com seguintes requisitos abaixo.
+### Escopo do projeto
+Criar um MVP de um aplicativo de troca de mensagens, com seguintes requisitos abaixo.
 <br><br>
 
 
-### Requisitos obrigatórios
+#### Requisitos obrigatórios
 
 
 1. *Lista de mensagem*
@@ -48,7 +49,7 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 <br><br>
 
 
-### Desafios
+#### Desafios
 1. *Envio de mensagem*
 * Faça com que o tanto o botão de enviar, como o botão "enter" envie as mensagens
 <br>
