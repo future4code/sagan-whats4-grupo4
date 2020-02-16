@@ -2,7 +2,7 @@
 Desenvolvimento de aplicações completas, incluindo frontend Web com React e backend com Node.js.
 
 <p align="center">
-  <img width='500px' src='https://scontent.fvix2-1.fna.fbcdn.net/v/t1.0-9/s960x960/67138886_388491761795963_1932883854708703232_o.jpg?_nc_cat=104&_nc_ohc=BpCMcOj4WJEAX_iW8jY&_nc_ht=scontent.fvix2-1.fna&_nc_tp=7&oh=0ccd3ed672703164a9d4f856119e5da9&oe=5EB6A72E'>
+  <img  width='500px' src='https://user-images.githubusercontent.com/45580434/74607837-f69f5e00-50ba-11ea-97e0-62fab855bcb6.png'>
 </p>
 
 ## Projeto: WHATS4
