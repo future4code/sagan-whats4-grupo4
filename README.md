@@ -32,7 +32,7 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 <br>
 
 ### Escopo do projeto
-Criar um MVP de um aplicativo de troca de mensagens, com seguintes requisitos abaixo.
+Criar um MVP de um aplicativo de troca de mensagens, com os requisitos abaixo.
 <br><br>
 
 
