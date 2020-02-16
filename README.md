@@ -9,7 +9,7 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 
 [Site do projeto](http://sassy-society.surge.sh/)
 
-![app](https://user-images.githubusercontent.com/45580434/74608314-bd68ed00-50be-11ea-8727-8fb2817bcc2b.gif)
+![whats4](https://user-images.githubusercontent.com/45580434/74608432-aecf0580-50bf-11ea-8a91-b4e02b45ac96.gif)
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/sagan-whats4-grupo4">
