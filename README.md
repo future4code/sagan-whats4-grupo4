@@ -7,9 +7,7 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 
 ## Projeto: WHATS4
 
-<p align="center">
-<img src='https://files.slack.com/files-pri/TLAVDH7C2-FU0NUND36/gif.gif'>
-</p>
+![App Screenshot](Screenshot_2.png)
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/sagan-whats4-grupo4">
@@ -26,6 +24,7 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
     <img alt="Repository issues" src="https://img.shields.io/github/issues/future4code/sagan-whats4-grupo4">
   </a>
 </p>
+<br>
 
 **Desenvolvido por:** 
 * [Rosana Rezende](https://github.com/rosanarezende)
