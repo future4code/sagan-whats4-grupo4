@@ -54,7 +54,7 @@ Criar um MVP de um aplicativo de troca de mensagens, com seguintes requisitos ab
 * Faça com que o tanto o botão de enviar, como o botão "enter" envie as mensagens
 <br>
 
-2. *Deletar mensagem
+2. *Deletar mensagem*
 * Implemente a funcionalidade de deletar mensagem. Sempre que o usuário clicar duas vezes em cima de uma mensagem ela deve ser apagada.
 <br>
 
