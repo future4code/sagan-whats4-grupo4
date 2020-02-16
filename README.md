@@ -42,24 +42,24 @@ Criar um MVP de um aplicativo de troca de mensagens, com os requisitos abaixo.
 
 
 1. *Lista de mensagem*
-* Cada mensagem deve possuir um remetente (ou seja, um usuário que enviou) e o conteúdo em si. 
+* [x] Cada mensagem deve possuir um remetente (ou seja, um usuário que enviou) e o conteúdo em si. 
 <br>
 
 2. *Envio de mensagem*
-* Abaixo da lista citada, deve existir um local onde o usuário escolhe o nome do remetente (input) ; o conteúdo da mensagem (input) e um botão de enviar;
-* No layout, eles devem ficar um ao lado do outro. Sendo o campo do remetente com largura muito menor do que o campo do conteúdo;
+* [x] Abaixo da lista citada, deve existir um local onde o usuário escolhe o nome do remetente (input) ; o conteúdo da mensagem (input) e um botão de enviar;
+* [x] No layout, eles devem ficar um ao lado do outro. Sendo o campo do remetente com largura muito menor do que o campo do conteúdo;
 <br><br>
 
 
 #### Desafios
 1. *Envio de mensagem*
-* Faça com que o tanto o botão de enviar, como o botão "enter" envie as mensagens
+* [x] Faça com que o tanto o botão de enviar, como o botão "enter" envie as mensagens
 <br>
 
 2. *Deletar mensagem*
-* Implemente a funcionalidade de deletar mensagem. Sempre que o usuário clicar duas vezes em cima de uma mensagem ela deve ser apagada.
+* [x] Implemente a funcionalidade de deletar mensagem. Sempre que o usuário clicar duas vezes em cima de uma mensagem ela deve ser apagada.
 <br>
 
 3. *Design do projeto*
-* Deixar mais evidente qual usuário está mandando a mensagem. Sempre que o nome do usuário for "eu", a mensagem deve aparecer à direita e sem mostrar o nome dele; se for outro nome, deve aparecer à esquerda, e deve mostrar o nome do remetente.
+* [x] Deixar mais evidente qual usuário está mandando a mensagem. Sempre que o nome do usuário for "eu", a mensagem deve aparecer à direita e sem mostrar o nome dele; se for outro nome, deve aparecer à esquerda, e deve mostrar o nome do remetente.
 <br>
